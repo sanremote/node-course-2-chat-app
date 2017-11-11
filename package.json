@@ -1,7 +1,6 @@
 {
   "name": "chat-app",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node server/server.js",
@@ -14,5 +13,15 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanremote/node-course-2-chat-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sanremote/node-course-2-chat-app/issues"
+  },
+  "homepage": "https://github.com/sanremote/node-course-2-chat-app#readme",
+  "description": ""
 }
