@@ -18,9 +18,9 @@ describe('generateLocationMessage', () => {
     var from = 'fromSomeone';
     var latitude = 11;
     var longitude = 22;
-    var url = 'https:/www.google.com/maps?q=11,22';
+    var url = 'https://www.google.com/maps?q=11,22';
     var message = generateLocationMessage(from, latitude, longitude);
-    // console.log(message);
+    console.log(message);
     expect(typeof message.createdAt).toBe('number');
     expect(message).toMatchObject({ from, url });
   });
